@@ -54,3 +54,4 @@ def top_ten(subreddit):
     # but only if the length of the "children" list is 10 or less
     for post in children[:10]:
         print(post['data']['title'])
+
